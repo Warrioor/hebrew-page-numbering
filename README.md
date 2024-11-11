@@ -30,12 +30,4 @@ This script adjusts page numbering in Adobe InDesign documents to match right-to
 3. The script will automatically adjust the document’s page numbering and alignment.
 
 ## 📝 Documentation
-For detailed usage instructions, refer to the [Usage Guide](docs/usage-guide.md).
-
-## 📂 Repository Structure
-hebrew-page-numbering 
-├── hebrewPageNumbering.jsx 
-# The main InDesign script 
-├── README.md # Project documentation 
-  └── docs 
-    └── usage-guide.md # Additional documentation
+For detailed usage instructions, refer to the [Usage Guide](usage-guide.md).
