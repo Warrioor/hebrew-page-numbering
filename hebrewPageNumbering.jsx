@@ -1,3 +1,17 @@
+/*!
+ * Hebrew Page Numbering Script for Adobe InDesign
+ * Version: 1.0.0
+ * Author: [Your Name]
+ *
+ * This file is part of the Hebrew Page Numbering project.
+ * 
+ * This project is licensed under the GNU General Public License v3.0.
+ * You are free to use, modify, and distribute it under the same license.
+ * For more details, see the LICENSE file or visit:
+ * https://www.gnu.org/licenses/gpl-3.0.html
+ */
+
+
 // Check if a document is open
 if (app.documents.length > 0) {
     var doc = app.activeDocument;
