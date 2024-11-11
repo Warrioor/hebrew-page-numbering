@@ -32,11 +32,11 @@ Ensure you have:
 ---
 
 ## 5. Optional: Adding a License (`LICENSE`)
-Include an MIT License to allow others to freely use, modify, and distribute your script.
+Include an GNU License to allow others to freely use, modify, and distribute your script.
 
 ```markdown
-MIT License
+GNU License
 
-Copyright (c) 2024 [Your Name]
+Copyright (c) 2024 [Warrioor]
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software...
