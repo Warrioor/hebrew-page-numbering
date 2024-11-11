@@ -31,3 +31,11 @@ This script adjusts page numbering in Adobe InDesign documents to match right-to
 
 ## 📝 Documentation
 For detailed usage instructions, refer to the [Usage Guide](usage-guide.md).
+
+## 🛡️ License
+
+This project is licensed under the **GNU General Public License v3.0**.
+
+You are free to use, modify, and distribute this software as long as any modifications are also licensed under GPL-3.0.
+
+For more details, see the [LICENSE](LICENSE) file or visit the [GNU GPL-3.0 License page](https://www.gnu.org/licenses/gpl-3.0.html).
