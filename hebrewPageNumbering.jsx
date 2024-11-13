@@ -1,6 +1,6 @@
 /*!
  * Hebrew Page Numbering Script for Adobe InDesign
- * Version: 1.0.0
+ * Version: 1.0.1
  * Author: [Your Name]
  *
  * This file is part of the Hebrew Page Numbering project.
@@ -10,7 +10,6 @@
  * For more details, see the LICENSE file or visit:
  * https://www.gnu.org/licenses/gpl-3.0.html
  */
-
 
 // Check if a document is open
 if (app.documents.length > 0) {
@@ -32,8 +31,9 @@ if (app.documents.length > 0) {
                 var textFrame = masterSpread.textFrames[j];
                 var content = textFrame.contents;
 
-                // Check if it's a page number marker and align accordingly
-                if (content.includes("Current Page Number")) {
+                // Ensure content is defined and is a string
+                if (content && typeof content === "string" && content.toString().includes("Current Page Number")) {
+                    // Check the side of the page and adjust justification
                     if (page.side == PageSideOptions.RIGHT_HAND) {
                         textFrame.paragraphs[0].justification = Justification.RIGHT_ALIGN;
                     } else {
